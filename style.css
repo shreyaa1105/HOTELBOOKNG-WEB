@@ -437,9 +437,13 @@ background-color: hsl(340, 48%, 52%);
         flex-direction:column;
         margin:20px 0;
         align-items:center;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
     }
 
     .whitebox{
+        
         width:320px;
         height:auto;
         margin:0;
@@ -447,7 +451,7 @@ background-color: hsl(340, 48%, 52%);
     }
 
     .whitebox hr{
-        width:280px !important;
+        width:280px ;
     }
 
     .top1,
@@ -515,6 +519,13 @@ background-color: hsl(340, 48%, 52%);
     .redcircle{
         left:170px;
         top:92px;
+    }
+    .info3{
+        margin-top: 50px;
+    }
+    .today{
+       position: absolute;
+       top:310px;
     }
 
 }
