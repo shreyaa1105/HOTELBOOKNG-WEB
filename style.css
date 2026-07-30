@@ -128,9 +128,9 @@
     height:350px;
     border-radius: 20px;
     background: linear-gradient(to top right, hsl(15, 74%, 31%), hsl(18, 56%, 50%)) ;
-    transform: rotate(10deg);
-    top:-310px;
-    left:350px;
+    transform: rotate(8deg);
+    top:80px;
+    left:18px;
     
 }  
 .info3{
@@ -383,7 +383,7 @@ background-color: hsl(340, 48%, 52%);
     border: solid black 1px;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:370px){
 
     *{
         box-sizing:border-box;
@@ -393,7 +393,6 @@ background-color: hsl(340, 48%, 52%);
         flex-direction:column;
     }
 
-    /* ---------- Left Box ---------- */
 
     .leftbox{
         width:100%;
@@ -471,10 +470,7 @@ background-color: hsl(340, 48%, 52%);
         margin:0 !important;
     }
 
-    .today{
-        position:absolute ;
-        left:20px;
-       
+   
         
     }
 
@@ -490,8 +486,6 @@ background-color: hsl(340, 48%, 52%);
         width:90% !important;
         margin:auto !important;
     }
-
-    /* ---------- Right Box ---------- */
 
     .rightbox{
         width:100%;
