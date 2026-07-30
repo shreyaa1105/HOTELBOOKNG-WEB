@@ -383,7 +383,7 @@ background-color: hsl(340, 48%, 52%);
     border: solid black 1px;
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:500px){
 
     *{
         box-sizing: border-box;
