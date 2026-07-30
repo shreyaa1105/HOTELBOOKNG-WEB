@@ -386,12 +386,14 @@ background-color: hsl(340, 48%, 52%);
 @media screen and (max-width:500px){
 
     *{
-        box-sizing: border-box;
+        box-sizing:border-box;
     }
 
     .body1{
-        flex-direction: column;
+        flex-direction:column;
     }
+
+    /* ---------- Left Box ---------- */
 
     .leftbox{
         width:100%;
@@ -401,13 +403,95 @@ background-color: hsl(340, 48%, 52%);
         padding-bottom:20px;
     }
 
+    .leftbox img{
+        max-width:100%;
+    }
+
     .yourstaybox{
-        width:190px;
+        width:90%;
+        margin:15px auto;
+    }
+
+    .leftcontent{
+        margin:20px;
+        gap:18px;
+        font-size:15px;
+    }
+
+    .house,
+    .pin,
+    .Breakfast,
+    .message{
+        align-items:center;
+        gap:15px;
+    }
+
+    .pin{
+        margin-left: 200px;
+        margin-top: -40px;
+    }
+    .message{
+         margin-left: 200px;
+        margin-top: -40px;
+    }
+    
+
+    .redcircle{
+        position:absolute;
+        top:92px;
+        right:35px;
+        left:auto;
     }
 
     .whetherbox{
-        margin-top:40px;
+        width:90%;
+        height:100px;
+        margin:30px auto;
+        position:relative;
+        overflow:hidden;
     }
+    .today{
+        position: absolute;
+        top:20px;
+    }
+    .two{
+       position: absolute;
+       top:60px;
+    }
+   
+   .sunny{
+    position: absolute;
+    top:80px;
+   }
+
+    .whetherbox img{
+        position:absolute;
+        right:15px;
+        top:10px;
+        margin:0 !important;
+    }
+
+    .today{
+        position:absolute ;
+        left:20px;
+       
+        
+    }
+
+    .info{
+        margin-top: -25px;
+        margin-left: 25px;
+        font-size:11px;
+        line-height:18px;
+       
+    }
+
+    hr{
+        width:90% !important;
+        margin:auto !important;
+    }
+
+    /* ---------- Right Box ---------- */
 
     .rightbox{
         width:100%;
@@ -420,7 +504,7 @@ background-color: hsl(340, 48%, 52%);
     }
 
     .info1 p:last-child{
-        font-size:28px ;
+        font-size:28px;
     }
 
     .buttons{
@@ -434,16 +518,14 @@ background-color: hsl(340, 48%, 52%);
     }
 
     .middleboxes{
+        display:flex;
         flex-direction:column;
-        margin:20px 0;
         align-items:center;
-        display: flex;
-        flex-direction: column;
         gap:10px;
+        margin:20px 0;
     }
 
     .whitebox{
-        
         width:320px;
         height:auto;
         margin:0;
@@ -451,7 +533,7 @@ background-color: hsl(340, 48%, 52%);
     }
 
     .whitebox hr{
-        width:280px ;
+        width:280px;
     }
 
     .top1,
@@ -509,23 +591,11 @@ background-color: hsl(340, 48%, 52%);
     .info3{
         position:static;
         padding:20px;
+        margin-top:50px;
     }
 
     .boxbottom{
         position:static;
         padding:20px;
     }
-
-    .redcircle{
-        left:170px;
-        top:92px;
-    }
-    .info3{
-        margin-top: 50px;
-    }
-    .today{
-       position: absolute;
-       top:310px;
-    }
-
 }
