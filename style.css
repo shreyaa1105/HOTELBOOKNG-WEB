@@ -455,12 +455,12 @@ background-color: hsl(340, 48%, 52%);
     }
     .two{
        position: absolute;
-       top:60px;
+       top:100px;
     }
    
    .sunny{
     position: absolute;
-    top:80px;
+    top:110px;
    }
 
     .whetherbox img{
